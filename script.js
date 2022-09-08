@@ -105,3 +105,64 @@ for(let x of score){
         console.log("F")
     }            
 }
+
+//switch statement in javascript
+
+let num = 18;
+switch(num){
+    case 17:
+        console.log("Under 18")
+        break;
+    case 25: 
+        console.log("Older than the range")
+        break;
+    default:
+        console.log("You have to be 18 to 24 years to be able to contest")
+        break;       
+}
+
+
+//tenary operator in javascript
+const yrsold = 22;
+const personAge = yrsold >= 18 ? "You can go ahead and contest, good luck!!":"Sorry, you're not up to age and can't contest at this time"
+console.log(personAge)
+
+//functions overview
+function product(a,b){
+    return a*b;
+}
+console.log(product(250,98))
+
+//Arrow function in javascript
+const muladd = (i,j) =>{
+    console.log(i*j+j)
+}
+
+muladd(5,5)
+
+//let a = 4
+function numCubes(a){
+    return Math.pow(a,3);
+}
+
+console.log(numCubes(4));
+
+function minSec(minutes){
+    return minutes*60;
+}
+
+console.log("Function to convert minutes to seconds")
+console.log(minSec(7))
+
+
+
+function ageInDays(years){
+    return age*365;
+}
+
+console.log("Function to convert age to days")
+console.log(ageInDays(22))
+
+
+
+
